@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="面向公开网络的 AI 知识学习站，按完整链路理解 AI 如何回答问题。" />
+    <title>AI 知识地图</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="返回 AI 知识地图首页">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span>AI 知识地图</span>
+      </a>
+      <div class="header-actions">
+        <a class="header-link" href="#one-month-path">30 天训练</a>
+        <a class="header-link" href="#journey">学习路径</a>
+        <a class="header-link" href="#case-preview">案例演练</a>
+        <a class="header-link" href="#updates">每日更新</a>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">PUBLIC AI LEARNING</p>
+        <h1 id="page-title">沿着一次回答，理解 AI 的完整链路</h1>
+        <p id="site-tagline" class="hero-copy">正在加载学习路径…</p>
+        <div class="hero-meta">
+          <span id="module-count">6 个知识模块</span>
+          <span class="meta-separator" aria-hidden="true">·</span>
+          <span id="new-update-summary">识别今日公开更新</span>
+        </div>
+        <a class="hero-primary-link" href="#journey">从第 1 模块开始 <span aria-hidden="true">↓</span></a>
+      </section>
+
+      <section id="quick-start" class="quick-start" aria-labelledby="quick-start-title">
+        <div class="quick-start-heading">
+          <p class="eyebrow">RECOMMENDED WAY TO LEARN</p>
+          <h2 id="quick-start-title">小白先看：先走一遍路径，再用案例加深理解</h2>
+        </div>
+        <ol class="quick-start-steps">
+          <li><strong>01</strong><span>按顺序了解 AI 如何接收问题、找到依据并给出回答。</span></li>
+          <li><strong>02</strong><span>点击感兴趣的知识点，查看解释、示例、案例与实践要点。</span></li>
+          <li><strong>03</strong><span>再进入真实业务案例，把六个模块串成一条完整链路。</span></li>
+        </ol>
+      </section>
+
+      <section id="one-month-path" class="training-path" aria-labelledby="training-path-title">
+        <div class="training-heading">
+          <div>
+            <p class="eyebrow">30-DAY AI PM SPRINT · 90 MIN / DAY</p>
+            <h2 id="training-path-title">30 天 AI 产品经理训练路径</h2>
+          </div>
+          <p>目标不是“读完知识”，而是完成一个可验证的 AI 产品方案：找对问题、设计链路、写出 PRD，并用真实用户任务验证。</p>
+        </div>
+
+        <div class="training-rhythm" aria-label="每日学习节奏">
+          <span><strong>20 分钟</strong>理解本周模块</span>
+          <span><strong>50 分钟</strong>完成案例任务</span>
+          <span><strong>20 分钟</strong>复盘与提交产出</span>
+        </div>
+
+        <div class="training-weeks">
+          <article class="training-week">
+            <p class="training-week-index">WEEK 01 · 第 1–7 天</p>
+            <h3>找对问题：先判断 AI 是否值得做</h3>
+            <p class="training-modules">涉及模块：模型基础、输入处理</p>
+            <p>先区分“模型会说”与“产品能解决问题”。练习访谈目标用户、拆解任务、识别要追问的条件与不能交给模型的决策。</p>
+            <div class="training-case"><strong>实战案例：员工政策咨询入口</strong><span>员工经常问报销、假期和福利规则。你需要判断哪些问题适合先由 AI 回答，哪些必须转人工。</span></div>
+            <div class="training-output"><strong>每周产出</strong><span>AI 机会评估卡：目标用户、核心痛点、任务边界、成功标准、不可做事项。</span></div>
+          </article>
+
+          <article class="training-week">
+            <p class="training-week-index">WEEK 02 · 第 8–14 天</p>
+            <h3>让答案有依据：设计知识型 AI 产品</h3>
+            <p class="training-modules">涉及模块：信息与知识、生成与输出</p>
+            <p>学习把权威资料、版本、引用和安全边界写进产品需求。重点不是“接入 RAG”，而是让用户能判断答案是否可信、是否可行动。</p>
+            <div class="training-case"><strong>实战案例：政策知识问答助手</strong><span>为员工政策答疑设计资料来源、检索范围、引用呈现、过期资料处理和人工兜底。</span></div>
+            <div class="training-output"><strong>每周产出</strong><span>一份知识问答 PRD：用户旅程、资料治理规则、回答结构、异常场景与验收样例。</span></div>
+          </article>
+
+          <article class="training-week">
+            <p class="training-week-index">WEEK 03 · 第 15–21 天</p>
+            <h3>让 AI 安全地做事：设计工具与流程</h3>
+            <p class="training-modules">涉及模块：推理与智能体、生成与输出</p>
+            <p>把复杂目标拆成可验证步骤，明确权限、工具参数、停止条件和人工确认点，避免把“会调用工具”误当成“可以直接执行”。</p>
+            <div class="training-case"><strong>实战案例：HR 数据查询助手</strong><span>从权限校验、组织范围和统一口径，到数据查询、结果校验和隐私保护，完成一次端到端流程设计。</span></div>
+            <div class="training-output"><strong>每周产出</strong><span>流程图 + 核心 PRD：工具调用规则、失败处理、风险清单和页面原型说明。</span></div>
+          </article>
+
+          <article class="training-week">
+            <p class="training-week-index">WEEK 04 · 第 22–30 天</p>
+            <h3>证明产品有效：设计评估与上线试点</h3>
+            <p class="training-modules">涉及模块：评估与运营</p>
+            <p>把“感觉好用”改写为可检验的任务、指标和反馈闭环。对比质量、完成率、时延、成本和安全风险，决定是否继续扩大范围。</p>
+            <div class="training-case"><strong>实战案例：HR 助手试点复盘</strong><span>以真实查询任务为评测集，定位错误来自意图、资料、工具还是输出，并提出下一轮优先级。</span></div>
+            <div class="training-output"><strong>每周产出</strong><span>评测方案 + 试点复盘：指标看板、20 条验收样本、上线阈值和迭代路线图。</span></div>
+          </article>
+        </div>
+
+        <div class="training-capstone">
+          <div>
+            <p class="eyebrow">FINAL CHECK · DAY 30</p>
+            <h3>完成综合案例，拿到一份能评审的 AI 产品方案</h3>
+            <p>最后将四周产出串成同一份方案：问题定义 → 可信答案 → 受控执行 → 评估迭代。达到“能独立完成基础方案和试点验证”的岗位就绪水平；复杂架构、行业知识与大规模运营仍需在真实项目中持续积累。</p>
+          </div>
+          <a class="training-capstone-link" href="#case-preview">去完成综合案例 <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section id="journey" class="journey" aria-labelledby="journey-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">LEARNING PATH</p>
+            <h2 id="journey-title">一条从问题到回答的 AI 学习路径</h2>
+          </div>
+          <p>点击任意知识卡片下钻学习</p>
+        </div>
+        <div class="endpoint endpoint-input">
+          <span>用户提出问题</span>
+          <small>文字 / 语音 / 图片</small>
+        </div>
+        <div id="learning-flow" class="learning-flow" aria-live="polite"></div>
+        <div class="endpoint endpoint-output">
+          <span>AI 给出回答</span>
+          <small>答案 / 行动 / 引用</small>
+        </div>
+      </section>
+
+      <section id="case-preview" class="case-preview" aria-labelledby="case-preview-title">
+        <div class="case-preview-intro">
+          <p class="eyebrow">APPLY WHAT YOU LEARNED · 10 MIN</p>
+          <h2 id="case-preview-title">真实业务案例 · HR 数据查询助手</h2>
+          <p>业务问题：查询某业务部门当前在职人数，以及不同年龄段的人数分布（即查询某业务部门人力数据）。</p>
+          <p class="case-preview-note">从权限校验、组织范围和统一口径，到查询校验与安全呈现，完整看一次 AI 如何处理真实业务问题。</p>
+        </div>
+        <div class="case-preview-actions">
+          <button class="case-preview-action" type="button" data-learning-mode="case">查看完整案例演练 <span aria-hidden="true">→</span></button>
+        </div>
+      </section>
+
+      <section id="learning-mode-panel" class="learning-mode-panel" aria-live="polite" hidden>
+        <div id="learning-mode-content"></div>
+      </section>
+
+      <section id="updates" class="updates-section" aria-labelledby="updates-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">DAILY SIGNALS</p>
+            <h2 id="updates-title">新更新</h2>
+          </div>
+          <p id="updated-at">等待数据同步</p>
+        </div>
+        <div id="updates-list" class="updates-list"></div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>仅采集公开来源；每条更新均保留来源和发布日期。</p>
+    </footer>
+
+    <script defer src="./data/knowledge.js"></script>
+    <script defer src="./app.js"></script>
+  </body>
+</html>

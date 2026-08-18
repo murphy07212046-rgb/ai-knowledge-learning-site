@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AI 知识地图的知识详情与案例巩固。" />
+    <title>知识详情 · AI 知识地图</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header lesson-header">
+      <a class="brand" href="./index.html" aria-label="返回 AI 知识地图首页">
+        <span class="brand-mark" aria-hidden="true">AI</span>
+        <span>AI 知识地图</span>
+      </a>
+      <a class="header-link" href="./index.html#journey">返回学习路径</a>
+    </header>
+
+    <main class="lesson-main">
+      <a class="lesson-back" href="./index.html#journey"><span aria-hidden="true">←</span> 返回全部知识点</a>
+      <article id="lesson-content" class="lesson-content" aria-live="polite">
+        <p class="lesson-loading">正在加载知识详情…</p>
+      </article>
+    </main>
+
+    <footer>
+      <p>仅采集公开来源；每条更新均保留来源和发布日期。</p>
+    </footer>
+
+    <script defer src="./data/knowledge.js"></script>
+    <script defer src="./lesson.js"></script>
+  </body>
+</html>
