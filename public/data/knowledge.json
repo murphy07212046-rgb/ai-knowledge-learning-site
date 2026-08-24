@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-08-06T08:00:00.000Z",
+    "updatedAt": "2026-08-24T02:36:19.414Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -15,7 +15,11 @@
         "moduleId": "foundations",
         "title": "01 / 模型基础：理解问题，但不编造数字",
         "description": "模型识别“当前、在职、年龄段”等自然语言约束，并把受控查询返回的结果解释成业务人员看得懂的回答。它不能凭记忆给出实时人数。",
-        "lessonIds": ["llm", "transformer", "inference"],
+        "lessonIds": [
+          "llm",
+          "transformer",
+          "inference"
+        ],
         "lessonFocus": {
           "llm": "把“当前在职人数”和“年龄段分布”的自然语言问题转成需要查询与解释的任务，绝不凭模型记忆生成实时数字。",
           "transformer": "关联“业务部门、子部门、当前、在职、年龄段”等相距较远的条件，避免把一个看似简单的问题理解错。",
@@ -27,7 +31,11 @@
         "moduleId": "input",
         "title": "02 / 输入处理：识别两个需求与访问边界",
         "description": "系统拆分出“在职总人数”和“按年龄分组”两个需求，处理输入长度，并确认提问者只能查询被授权的部门级汇总数据。",
-        "lessonIds": ["tokens", "intent", "prompt-safety"],
+        "lessonIds": [
+          "tokens",
+          "intent",
+          "prompt-safety"
+        ],
         "lessonFocus": {
           "tokens": "在提交查询前为问题、权限规则、组织范围和返回说明分配上下文预算，避免关键信息被截断。",
           "intent": "将一个问题拆成“在职总人数”和“按年龄段分组”两个查询目标，并识别仍需澄清的范围。",
@@ -39,7 +47,11 @@
         "moduleId": "knowledge",
         "title": "03 / 信息与知识：确定组织范围和统一口径",
         "description": "系统从组织树确认部门及子部门范围，并从权威业务口径确认“在职”状态与年龄分档；历史偏好与临时输入不能覆盖这些权威规则。",
-        "lessonIds": ["context-window", "memory", "rag"],
+        "lessonIds": [
+          "context-window",
+          "memory",
+          "rag"
+        ],
         "lessonFocus": {
           "context-window": "让本轮问题、提问者身份、授权范围和权威统计口径同时留在模型的有效上下文中。",
           "memory": "当用户此前查询过其他部门时，识别旧偏好与本次授权范围的冲突，避免沿用过期范围。",
@@ -51,7 +63,11 @@
         "moduleId": "agent",
         "title": "04 / 推理与智能体：查询、纠错与结果校验",
         "description": "先校验权限，再解析组织范围和构造分组查询；发生字段异常时受控重试，返回后校验年龄段之和是否与总人数一致。",
-        "lessonIds": ["reasoning", "planning", "tools"],
+        "lessonIds": [
+          "reasoning",
+          "planning",
+          "tools"
+        ],
         "lessonFocus": {
           "reasoning": "在给出结果前推理并验证：年龄段人数之和是否等于在职总数，是否存在缺失生日等例外。",
           "planning": "按“权限校验 → 组织解析 → 分组查询 → 结果校验”的顺序规划动作，避免先查后审。",
@@ -63,7 +79,11 @@
         "moduleId": "output",
         "title": "05 / 生成与输出：清楚呈现，但不泄露隐私",
         "description": "回答固定展示总人数、年龄段分布、统计口径和数据说明。小样本人群会触发 k-匿名保护，绝不展示姓名、工号等个人信息。",
-        "lessonIds": ["generation", "structured-output", "output-safety"],
+        "lessonIds": [
+          "generation",
+          "structured-output",
+          "output-safety"
+        ],
         "lessonFocus": {
           "generation": "把已校验的查询结果转成易懂说明，同时明确口径、数据说明和不确定项，不重写或猜测数字。",
           "structured-output": "固定返回总人数、年龄段分布、统计口径和数据说明，确保前端能稳定展示且用户便于核对。",
@@ -75,7 +95,11 @@
         "moduleId": "operations",
         "title": "06 / 评估与运营：把失败点变成长期检查项",
         "description": "持续监测意图遗漏、组织范围错误、口径不一致、查询校验缺失和输出安全问题，并用真实失败样本回归验证质量、成本与时延。",
-        "lessonIds": ["evaluation", "observability", "cost-latency"],
+        "lessonIds": [
+          "evaluation",
+          "observability",
+          "cost-latency"
+        ],
         "lessonFocus": {
           "evaluation": "把意图遗漏、范围错误、口径错误和隐私泄露风险沉淀为回归样本，持续验证真实体验。",
           "observability": "记录请求被如何拆分、使用了哪版口径、查询是否重试和安全规则是否触发，便于定位问题。",
@@ -116,8 +140,15 @@
             "要求区分“原文事实”“推测”与“待确认项”。",
             "对会影响决策的数字、人名和时间做人工复核。"
           ],
-          "pitfalls": ["把流畅表达当作事实正确", "忽略模型知识的时效边界"],
-          "related": ["Transformer", "推理参数", "模型评估"]
+          "pitfalls": [
+            "把流畅表达当作事实正确",
+            "忽略模型知识的时效边界"
+          ],
+          "related": [
+            "Transformer",
+            "推理参数",
+            "模型评估"
+          ]
         },
         {
           "id": "transformer",
@@ -142,8 +173,15 @@
             "把原始章节标题、编号和引用位置保留下来。",
             "超长材料分段时，在每段重复必要的上下文与约束。"
           ],
-          "pitfalls": ["误以为模型逐字记忆原文", "忽略长上下文带来的成本和注意力稀释"],
-          "related": ["Context Window", "Token", "推理"]
+          "pitfalls": [
+            "误以为模型逐字记忆原文",
+            "忽略长上下文带来的成本和注意力稀释"
+          ],
+          "related": [
+            "Context Window",
+            "Token",
+            "推理"
+          ]
         },
         {
           "id": "inference",
@@ -168,8 +206,15 @@
             "每次调整参数都用固定样本回归验证。",
             "把最大输出长度和停止条件一并设计，控制体验与成本。"
           ],
-          "pitfalls": ["用同一套参数处理所有任务", "只追求随机性而忽略可复现性"],
-          "related": ["LLM", "格式控制", "评估"]
+          "pitfalls": [
+            "用同一套参数处理所有任务",
+            "只追求随机性而忽略可复现性"
+          ],
+          "related": [
+            "LLM",
+            "格式控制",
+            "评估"
+          ]
         }
       ]
     },
@@ -204,8 +249,15 @@
             "在截断或摘要发生时，向用户说明处理范围。",
             "不要用字符数估算模型成本，使用目标模型的真实编码器。"
           ],
-          "pitfalls": ["将字符数直接等同于 token 数", "忽略超长输入被截断"],
-          "related": ["Context Window", "成本与延迟", "LLM"]
+          "pitfalls": [
+            "将字符数直接等同于 token 数",
+            "忽略超长输入被截断"
+          ],
+          "related": [
+            "Context Window",
+            "成本与延迟",
+            "LLM"
+          ]
         },
         {
           "id": "intent",
@@ -230,8 +282,15 @@
             "把高风险或高成本动作放在信息确认之后。",
             "记录误路由样本，持续补充真实用户表达。"
           ],
-          "pitfalls": ["一个问题中包含多个意图却只处理一个", "模糊表达被路由到错误能力"],
-          "related": ["System Prompt", "工具调用", "多模态输入"]
+          "pitfalls": [
+            "一个问题中包含多个意图却只处理一个",
+            "模糊表达被路由到错误能力"
+          ],
+          "related": [
+            "System Prompt",
+            "工具调用",
+            "多模态输入"
+          ]
         },
         {
           "id": "prompt-safety",
@@ -256,8 +315,15 @@
             "为读取、导出、修改等动作设置独立权限校验。",
             "准备提示注入、越权请求和数据泄露的专门测试样本。"
           ],
-          "pitfalls": ["把 System Prompt 当成绝对安全边界", "只做关键词过滤而忽略上下文"],
-          "related": ["输出安全", "工具权限", "评估"]
+          "pitfalls": [
+            "把 System Prompt 当成绝对安全边界",
+            "只做关键词过滤而忽略上下文"
+          ],
+          "related": [
+            "输出安全",
+            "工具权限",
+            "评估"
+          ]
         }
       ]
     },
@@ -292,8 +358,15 @@
             "对长会话定期摘要，并标记已失效的历史信息。",
             "为关键约束增加生成前检查或结构化字段。"
           ],
-          "pitfalls": ["上下文过长导致重点被稀释", "关键约束被截断而无提示"],
-          "related": ["Token 化", "Memory", "RAG"]
+          "pitfalls": [
+            "上下文过长导致重点被稀释",
+            "关键约束被截断而无提示"
+          ],
+          "related": [
+            "Token 化",
+            "Memory",
+            "RAG"
+          ]
         },
         {
           "id": "memory",
@@ -318,8 +391,15 @@
             "区分稳定偏好、临时上下文与敏感信息。",
             "提供查看、编辑、删除和过期处理的入口。"
           ],
-          "pitfalls": ["过期记忆影响当前判断", "记录了不应长期保存的信息"],
-          "related": ["隐私", "Context Window", "评估"]
+          "pitfalls": [
+            "过期记忆影响当前判断",
+            "记录了不应长期保存的信息"
+          ],
+          "related": [
+            "隐私",
+            "Context Window",
+            "评估"
+          ]
         },
         {
           "id": "rag",
@@ -344,8 +424,15 @@
             "分别评估“有没有检到”和“检到的是否可回答”。",
             "将引用与具体结论对应，而不是只在文末堆链接。"
           ],
-          "pitfalls": ["检索到不相关资料仍强行回答", "忽略文档版本和访问权限"],
-          "related": ["Embedding", "重排", "来源引用"]
+          "pitfalls": [
+            "检索到不相关资料仍强行回答",
+            "忽略文档版本和访问权限"
+          ],
+          "related": [
+            "Embedding",
+            "重排",
+            "来源引用"
+          ]
         }
       ]
     },
@@ -380,8 +467,15 @@
             "将事实、推断和建议明确分开。",
             "对高影响结论附上证据或要求调用工具核验。"
           ],
-          "pitfalls": ["将看似合理的推导当作事实", "任务本应调用工具却只依赖语言推理"],
-          "related": ["Planning", "工具调用", "评估"]
+          "pitfalls": [
+            "将看似合理的推导当作事实",
+            "任务本应调用工具却只依赖语言推理"
+          ],
+          "related": [
+            "Planning",
+            "工具调用",
+            "评估"
+          ]
         },
         {
           "id": "planning",
@@ -406,8 +500,15 @@
             "限制最大轮次、最大花费和可调用工具范围。",
             "对失败、空结果和冲突信息设计退出与追问路径。"
           ],
-          "pitfalls": ["循环无法收敛", "计划过长但没有真实执行或校验"],
-          "related": ["工具调用", "Reflection", "任务边界"]
+          "pitfalls": [
+            "循环无法收敛",
+            "计划过长但没有真实执行或校验"
+          ],
+          "related": [
+            "工具调用",
+            "Reflection",
+            "任务边界"
+          ]
         },
         {
           "id": "tools",
@@ -432,8 +533,15 @@
             "关键数值交给确定性工具计算并返回原始结果。",
             "展示数据时间和来源，避免把实时结果说成永久事实。"
           ],
-          "pitfalls": ["工具参数错误却没有校验", "把模型选择工具等同于拥有执行权限"],
-          "related": ["权限", "Planning", "可观测性"]
+          "pitfalls": [
+            "工具参数错误却没有校验",
+            "把模型选择工具等同于拥有执行权限"
+          ],
+          "related": [
+            "权限",
+            "Planning",
+            "可观测性"
+          ]
         }
       ]
     },
@@ -468,8 +576,15 @@
             "为不同受众单独指定篇幅、语气和结构。",
             "对关键术语、数字和例外条件做跨版本核对。"
           ],
-          "pitfalls": ["没有限制长度导致输出冗长", "未明确目标格式导致内容不可直接使用"],
-          "related": ["推理参数", "格式控制", "输出安全"]
+          "pitfalls": [
+            "没有限制长度导致输出冗长",
+            "未明确目标格式导致内容不可直接使用"
+          ],
+          "related": [
+            "推理参数",
+            "格式控制",
+            "输出安全"
+          ]
         },
         {
           "id": "structured-output",
@@ -494,8 +609,15 @@
             "把模型输出校验放在真正写入业务系统之前。",
             "为缺字段、格式错和 schema 升级准备兼容策略。"
           ],
-          "pitfalls": ["只提示“用 JSON 输出”却不校验", "schema 变化后上下游未同步"],
-          "related": ["工具调用", "格式控制", "异常处理"]
+          "pitfalls": [
+            "只提示“用 JSON 输出”却不校验",
+            "schema 变化后上下游未同步"
+          ],
+          "related": [
+            "工具调用",
+            "格式控制",
+            "异常处理"
+          ]
         },
         {
           "id": "output-safety",
@@ -520,8 +642,15 @@
             "把安全提示放在用户能看见且能行动的位置。",
             "用真实边界案例测试漏拦截和过度拦截。"
           ],
-          "pitfalls": ["只关注输入而忽略模型输出", "过度拦截造成正常任务不可用"],
-          "related": ["输入安全", "可观测性", "评估"]
+          "pitfalls": [
+            "只关注输入而忽略模型输出",
+            "过度拦截造成正常任务不可用"
+          ],
+          "related": [
+            "输入安全",
+            "可观测性",
+            "评估"
+          ]
         }
       ]
     },
@@ -556,8 +685,15 @@
             "为质量、完成率、风险和成本同时设指标。",
             "把每次变更与评测结果绑定，防止无感回退。"
           ],
-          "pitfalls": ["只看单次演示效果", "评测集与真实用户任务脱节"],
-          "related": ["可观测性", "版本管理", "RAG"]
+          "pitfalls": [
+            "只看单次演示效果",
+            "评测集与真实用户任务脱节"
+          ],
+          "related": [
+            "可观测性",
+            "版本管理",
+            "RAG"
+          ]
         },
         {
           "id": "observability",
@@ -582,8 +718,15 @@
             "对日志做脱敏、最小化保存和访问控制。",
             "把用户反馈关联到具体请求与系统版本。"
           ],
-          "pitfalls": ["只记录最终回答，无法定位原因", "日志中保存过多敏感内容"],
-          "related": ["评估", "成本与延迟", "隐私"]
+          "pitfalls": [
+            "只记录最终回答，无法定位原因",
+            "日志中保存过多敏感内容"
+          ],
+          "related": [
+            "评估",
+            "成本与延迟",
+            "隐私"
+          ]
         },
         {
           "id": "cost-latency",
@@ -608,8 +751,15 @@
             "为慢任务提供进度、取消和降级方案。",
             "同时看成本、时延和任务完成率，避免单指标优化。"
           ],
-          "pitfalls": ["所有请求都使用最强模型", "为了节省成本牺牲关键任务质量"],
-          "related": ["Token", "模型路由", "可观测性"]
+          "pitfalls": [
+            "所有请求都使用最强模型",
+            "为了节省成本牺牲关键任务质量"
+          ],
+          "related": [
+            "Token",
+            "模型路由",
+            "可观测性"
+          ]
         }
       ]
     },
@@ -644,8 +794,15 @@
             "列出 AI 可以做、规则系统应做、必须人工确认的事项。",
             "为首期选择一个可在两周内验证的最小场景。"
           ],
-          "pitfalls": ["只因技术热点而立项", "把所有用户问题都当成聊天问题"],
-          "related": ["意图识别", "效果评估", "HR AI 治理"]
+          "pitfalls": [
+            "只因技术热点而立项",
+            "把所有用户问题都当成聊天问题"
+          ],
+          "related": [
+            "意图识别",
+            "效果评估",
+            "HR AI 治理"
+          ]
         },
         {
           "id": "ai-ux",
@@ -670,8 +827,15 @@
             "为“资料不足”“无权限”“回答错误”各写一条用户可理解的提示。",
             "设计用户查看依据、编辑结果和反馈错误的入口。"
           ],
-          "pitfalls": ["把不确定答案说得过于肯定", "失败后只展示笼统报错"],
-          "related": ["提示与输入安全", "RAG 检索", "输出安全"]
+          "pitfalls": [
+            "把不确定答案说得过于肯定",
+            "失败后只展示笼统报错"
+          ],
+          "related": [
+            "提示与输入安全",
+            "RAG 检索",
+            "输出安全"
+          ]
         },
         {
           "id": "knowledge-governance",
@@ -696,8 +860,15 @@
             "定义哪些信息可公开、仅员工可见、仅 HR 可见或完全不可进入模型上下文。",
             "设计资料更新后重新索引、回归验证和通知用户的流程。"
           ],
-          "pitfalls": ["把所有文档一视同仁导入", "资料更新后保留旧答案和旧引用"],
-          "related": ["RAG 检索", "Memory", "隐私"]
+          "pitfalls": [
+            "把所有文档一视同仁导入",
+            "资料更新后保留旧答案和旧引用"
+          ],
+          "related": [
+            "RAG 检索",
+            "Memory",
+            "隐私"
+          ]
         },
         {
           "id": "ai-prd",
@@ -722,8 +893,15 @@
             "单独列出模型、知识库、工具、业务规则和人工分别承担的责任。",
             "准备正常、异常、越权和资料不足四类验收样例。"
           ],
-          "pitfalls": ["只写页面交互，不写 AI 的依据和边界", "把异常处理留到上线后再补"],
-          "related": ["工具调用", "结构化输出", "效果评估"]
+          "pitfalls": [
+            "只写页面交互，不写 AI 的依据和边界",
+            "把异常处理留到上线后再补"
+          ],
+          "related": [
+            "工具调用",
+            "结构化输出",
+            "效果评估"
+          ]
         },
         {
           "id": "evaluation-pilot",
@@ -748,8 +926,15 @@
             "设置质量、任务完成率、人工接管率、时延和安全事件的通过阈值。",
             "为每一个失败样本记录归因、修复动作和回归结果。"
           ],
-          "pitfalls": ["只用演示问题验证产品", "只看点赞或主观满意度"],
-          "related": ["效果评估", "可观测性", "成本与延迟"]
+          "pitfalls": [
+            "只用演示问题验证产品",
+            "只看点赞或主观满意度"
+          ],
+          "related": [
+            "效果评估",
+            "可观测性",
+            "成本与延迟"
+          ]
         },
         {
           "id": "hr-ai-governance",
@@ -774,11 +959,469 @@
             "设计人工复核、纠错、审计记录和异常升级流程。",
             "用高风险样本检查产品是否会越权、泄露或做出不透明的人事建议。"
           ],
-          "pitfalls": ["把 AI 推荐直接当成最终人事决定", "只做提示词限制，忽略权限和审计机制"],
-          "related": ["提示与输入安全", "输出安全", "隐私"]
+          "pitfalls": [
+            "把 AI 推荐直接当成最终人事决定",
+            "只做提示词限制，忽略权限和审计机制"
+          ],
+          "related": [
+            "提示与输入安全",
+            "输出安全",
+            "隐私"
+          ]
         }
       ]
     }
   ],
-  "updates": []
+  "updates": [
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2608.21359v1",
+      "title": "Primal Acceleration of Newton's Method",
+      "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2608.21359v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-08-21T17:59:37Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.21357v1",
+      "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+      "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2608.21357v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-08-21T17:59:26Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2608.21356v1",
+      "title": "AI with Authority, from Application to Silicon",
+      "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incor",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2608.21356v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-08-21T17:59:16Z",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.21343v1",
+      "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+      "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2608.21343v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-08-21T17:50:00Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.21332v1",
+      "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+      "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching pen",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2608.21332v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-08-21T17:38:42Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-perplexity%253D%253D1.4.1",
+      "title": "langchain-perplexity==1.4.1",
+      "summary": "<p>Changes since langchain-perplexity==1.4.0</p> <p>release(perplexity): 1.4.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5214816841\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/39826",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-08-21T14:08:47Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fhuggingface.co%2Fblog%2Fasr-benchmark-optimization",
+      "title": "Measuring benchmark optimization in speech recognition",
+      "summary": "Measuring benchmark optimization in speech recognition",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/asr-benchmark-optimization",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 21 Aug 2026 00:00:00 GMT",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-fireworks%253D%253D1.6.0",
+      "title": "langchain-fireworks==1.6.0",
+      "summary": "<p>Changes since langchain-fireworks==1.5.2</p> <p>release(fireworks): 1.6.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5206127896\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/39810\"",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.0",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-08-20T17:47:20Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Flfm25-dspark",
+      "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "summary": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 20 Aug 2026 16:52:57 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.3.16",
+      "title": "langchain==1.3.16",
+      "summary": "<p>Changes since langchain==1.3.15</p> <p>release(langchain): 1.3.16 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5204495814\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/39806\" data-hov",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.3.16",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-08-20T14:35:32Z",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.6.1",
+      "title": "langchain-anthropic==1.6.1",
+      "summary": "<p>Changes since langchain-anthropic==1.6.0</p> <p>release(anthropic): 1.6.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5204201270\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/39804\"",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.6.1",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-08-20T14:06:51Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-ai-futures",
+      "title": "Introducing AI Futures",
+      "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/introducing-ai-futures",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 20 Aug 2026 07:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fstampli",
+      "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/stampli",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 20 Aug 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.6.0",
+      "title": "langchain-openai==1.6.0",
+      "summary": "<p>Changes since langchain-openai==1.5.2</p> <p>release(openai): 1.6.0 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5194634405\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/39762\" data-h",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.0",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-08-19T21:45:04Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Foffering-zero-data-retention-for-frontier-models",
+      "title": "Offering Zero Data Retention for frontier models",
+      "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 19 Aug 2026 19:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fsearch%2Fback-to-school-study-tools%2F",
+      "title": "5 new ways to level up your learning with Search",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_header_2_JwwDb02.max-600x600.format-webp.webp\">Here’s how you can use Google Search tools to study for classes and standardized tests.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Wed, 19 Aug 2026 19:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.24",
+      "title": "v0.14.24",
+      "summary": "<h1>Release Notes</h1> <h2>[2026-08-19]</h2> <h3>llama-index-core [0.14.24]</h3> <ul> <li>fix: close HotpotQA evaluator file handles (<a href=\"https://github.com/run-llama/llama_index/pull/22113\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/run-llama/llama_index/pull/2",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.24",
+      "sourceName": "LlamaIndex Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-08-19T18:48:01Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fopenai.com%2Findex%2Freplit",
+      "title": "Replit expands access to software creation with GPT-5.6 Luna",
+      "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/replit",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 19 Aug 2026 07:00:00 GMT",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fchatgpt-ads-expands-across-europe",
+      "title": "ChatGPT Ads expands across Europe",
+      "summary": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Tue, 18 Aug 2026 22:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-research%2Faltk-evolve-hmm",
+      "title": "How Much Memory Does Your Agent Actually Need?",
+      "summary": "How Much Memory Does Your Agent Actually Need?",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Tue, 18 Aug 2026 18:09:38 GMT",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmulti-vector-encoder",
+      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "summary": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/multi-vector-encoder",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Tue, 18 Aug 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2FDharma-AI%2Fgpu-management-pt2",
+      "title": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "summary": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/Dharma-AI/gpu-management-pt2",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Mon, 17 Aug 2026 19:46:21 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fgemini%2Fgoogle-gemini-pixel-football-club-partnerships%2F",
+      "title": "Get closer to the game with Gemini and Pixel",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/football_multi-club_hero_nphU3P.max-600x600.format-webp.webp\">Google Gemini and Pixel partner with five global football clubs to elevate the fan matchday experience through AI and Smartphone Technology.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Mon, 17 Aug 2026 08:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fworkspace%2Fsheets-canvas-for-google-sheets-spreadsheets%2F",
+      "title": "Bring your spreadsheet data to life with Sheets canvas",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Sheets_canvas-blog-header-2784x.max-600x600.format-webp.webp\">Sheets canvas turns data into interactive dashboards, custom study trackers, seating charts, and more, all with a simple prompt.",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 13 Aug 2026 16:45:00 +0000",
+      "modules": [
+        "input"
+      ],
+      "isNew": false
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-research%2Famie-video-consultations%2F",
+      "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AIME_SIZZLE_THUMBNAIL.Aug10.max-600x600.format-webp.webp\">Google introduces AMIE for real-time clinical video consultations in simulated settings.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Tue, 11 Aug 2026 17:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": false
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts%2Fads-commerce%2Fgoogle-ads-analytics-ai-updates%2F",
+      "title": "Evolve your marketing with new AI tools",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Advisor_Header.max-600x600.format-webp.webp\">Learn how new AI and agentic experiences across Google Ads and Google Analytics can simplify your marketing workflow.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Mon, 10 Aug 2026 14:30:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": false
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.23",
+      "title": "v0.14.23",
+      "summary": "<h1>Release Notes</h1> <h2>[2026-06-24]</h2> <h3>llama-index-callbacks-argilla [0.5.0]</h3> <ul> <li>chore(deps): bump the uv group across 32 directories with 3 updates (<a href=\"https://github.com/run-llama/llama_index/pull/21664\" data-hovercard-type=\"pull_request\" data-hovercar",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.23",
+      "sourceName": "LlamaIndex Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-06-24T19:36:43Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": false
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.22",
+      "title": "v0.14.22",
+      "summary": "<h1>Release Notes</h1> <h2>[2026-05-14]</h2> <h3>llama-index-agent-agentmesh [0.2.0]</h3> <ul> <li>mass uv lock --upgrade (<a href=\"https://github.com/run-llama/llama_index/pull/21638\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/run-llama/llama_index/pull/21638/hoverc",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.22",
+      "sourceName": "LlamaIndex Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-05-14T20:22:24Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": false
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.21",
+      "title": "v0.14.21",
+      "summary": "<h1>Release Notes</h1> <h2>[2026-04-21]</h2> <h3>llama-index-callbacks-honeyhive [0.5.0]</h3> <ul> <li>chore(deps): bump the pip group across 87 directories with 2 updates (<a href=\"https://github.com/run-llama/llama_index/pull/21382\" data-hovercard-type=\"pull_request\" data-hover",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.21",
+      "sourceName": "LlamaIndex Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-04-21T00:18:51Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": false
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.20",
+      "title": "v0.14.20",
+      "summary": "<h1>Release Notes</h1> <h2>[2026-04-03]</h2> <h3>llama-index-agent-agentmesh [0.2.0]</h3> <ul> <li>fix vulnerability with nltk (<a href=\"https://github.com/run-llama/llama_index/pull/21275\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/run-llama/llama_index/pull/21275/h",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.20",
+      "sourceName": "LlamaIndex Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-04-03T19:55:51Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": false
+    }
+  ]
 }
