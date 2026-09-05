@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-09-04T05:50:21.617Z",
+    "updatedAt": "2026-09-05T05:42:35.315Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,21 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.6.2",
+      "title": "langchain-core==1.6.2",
+      "summary": "<p>Changes since langchain-core==1.6.1</p> <p>release(core): 1.6.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5352383540\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40209\" data-hover",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.2",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-09-04T21:29:44Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.04199v1",
       "title": "Compile by Training: Turning Natural-Language Specifications into Local Neural Functions",
       "summary": "Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introduces repeated cost, latency, and dependency on a provider. We present compile by training, which turns a natural-language specificati",
@@ -1135,6 +1150,21 @@
       "publishedAt": "Thu, 03 Sep 2026 12:00:00 GMT",
       "modules": [
         "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "output-https%3A%2F%2Fopenai.com%2Findex%2Fgpt-6-astra",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "summary": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science.",
+      "lessonId": "generation",
+      "learningConnection": "这条更新归入「生成与输出」的「LLM 生成」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/gpt-6-astra",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 03 Sep 2026 11:00:00 GMT",
+      "modules": [
+        "output"
       ],
       "isNew": true
     },
@@ -1676,7 +1706,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28576v1",
@@ -1691,7 +1721,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28560v1",
@@ -1706,7 +1736,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28557v1",
@@ -1721,7 +1751,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28553v1",
@@ -1736,7 +1766,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.0a2",
@@ -1751,7 +1781,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Four-decision-on-cursor-following-its-acquisition-by-spacex",
@@ -1766,7 +1796,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "output-https%3A%2F%2Fopenai.com%2Findex%2Fsupporting-next-generation-ai-startups-thailand",
@@ -2738,36 +2768,6 @@
       "sourceName": "OpenAI News",
       "sourceType": "official",
       "publishedAt": "Tue, 18 Aug 2026 22:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-research%2Faltk-evolve-hmm",
-      "title": "How Much Memory Does Your Agent Actually Need?",
-      "summary": "How Much Memory Does Your Agent Actually Need?",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/ibm-research/altk-evolve-hmm",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 18 Aug 2026 18:09:38 GMT",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmulti-vector-encoder",
-      "title": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "summary": "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/multi-vector-encoder",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 18 Aug 2026 00:00:00 GMT",
       "modules": [
         "foundations"
       ],
