@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-09-10T05:56:01.138Z",
+    "updatedAt": "2026-09-11T05:55:51.034Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,201 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.2",
+      "title": "langchain-anthropic==1.7.2",
+      "summary": "<p>Changes since langchain-anthropic==1.7.1</p> <p>release(anthropic): 1.7.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5416260537\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40387\"",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.2",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-09-10T19:13:12Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.11923v1",
+      "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+      "summary": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issued through a generic",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.11923v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-10T17:58:14Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2609.11918v1",
+      "title": "General Quantification of Covariate and Concept Shifts",
+      "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.11918v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-10T17:57:52Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.11917v1",
+      "title": "Data Scarcity and Model Sparsity: Mixtures-of-Experts Overfit More to Repeated Data",
+      "summary": "As the supply of human-written text is exhausted, it has become standard practice to repeat language model training data. Prior work has studied data repetition for densely activated Transformers, but the effects of data repetition remains largely unexplored for recently dominant",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.11917v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-10T17:57:33Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.11916v1",
+      "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+      "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to evaluate for species identification. We test whether models in this",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.11916v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-10T17:57:32Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.11915v1",
+      "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+      "summary": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix Modeling (GMMM) to estimate the causal effects of Generative Engi",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.11915v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-10T17:57:28Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fusing-codex-chatgpt-to-search-for-new-antimicrobials",
+      "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "summary": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 16:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fsearch%2Frunning-race-training-tips%2F",
+      "title": "3 ways to prep for your next big race with Search",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Search_Race_Running_Tips.max-600x600.format-webp.webp\">Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 16:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fput-data-to-work",
+      "title": "Now everyone can put data to work",
+      "summary": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/put-data-to-work",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 15:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-chatgpt-financial-services",
+      "title": "Introducing ChatGPT for Financial Services",
+      "summary": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fexpanding-ai-access-us-government",
+      "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "summary": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/expanding-ai-access-us-government",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-the-agents-api",
+      "title": "Introducing the Agents API",
+      "summary": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/introducing-the-agents-api",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fgradio-workflow-1111",
+      "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "summary": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/gradio-workflow-1111",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 10 Sep 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.6.2",
       "title": "langchain-openai==1.6.2",
       "summary": "<p>Changes since langchain-openai==1.6.1</p> <p>release(openai): 1.6.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5404725840\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40339\" data-h",
@@ -1481,7 +1676,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.04198v1",
@@ -1496,7 +1691,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.04197v1",
@@ -1511,7 +1706,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.04194v1",
@@ -1526,7 +1721,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2609.04190v1",
@@ -1541,7 +1736,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.0",
@@ -1556,7 +1751,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.1",
@@ -1571,7 +1766,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fdaybreak-for-frontline-defenders",
@@ -1586,7 +1781,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2FHcompany%2Fneomme",
@@ -1601,7 +1796,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Flegora-financial-statement-review-with-astra",
@@ -1616,7 +1811,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fplayco-game-prototyping-with-astra",
@@ -1631,7 +1826,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "output-https%3A%2F%2Fopenai.com%2Findex%2Fgpt-6-astra",
@@ -1646,7 +1841,7 @@
       "modules": [
         "output"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fsafety-overview-gpt-6-astra",
@@ -2573,201 +2768,6 @@
       "sourceName": "arXiv AI",
       "sourceType": "research",
       "publishedAt": "2026-08-26T17:53:00Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fbringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-      "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 26 Aug 2026 10:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Flearning-never-stops",
-      "title": "Learning never stops: How AI makes learning continuous",
-      "summary": "OpenAI’s new report explores how students and educators use ChatGPT to make learning more continuous, with support that extends beyond the classroom.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/learning-never-stops",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 26 Aug 2026 10:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fopenai.com%2Findex%2Fhugging-face-incident-and-the-road-ahead",
-      "title": "The Hugging Face incident and the road ahead",
-      "summary": "OpenAI shares findings from the Hugging Face security incident and the steps we’re taking to strengthen AI model security, monitoring, and alignment.",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Floveholidays",
-      "title": "How loveholidays is making everyone a builder with Codex",
-      "summary": "Discover how loveholidays uses OpenAI Codex to make software development accessible across the business, helping teams turn ideas into products faster.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/loveholidays",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Ftrain-multi-vector-encoder",
-      "title": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "summary": "Training and Finetuning Multi-Vector Embedding Models with Sentence Transformers",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/train-multi-vector-encoder",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Wed, 26 Aug 2026 00:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2608.24876v1",
-      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
-      "summary": "Recursive self-improvement (RSI) remains hard in long-horizon tasks, where growing histories obscure the task state and misalign skill invocation. We introduce Recuris, a recursive Experiential-Working Memory architecture for long-horizon agent harnesses, in which Working Memory",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.24876v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-25T17:56:35Z",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2608.24870v1",
-      "title": "SPO++: Stream-Aligned Policy Optimization for Asynchronous Agentic RL",
-      "summary": "Group-relative reinforcement learning waits for sibling rollouts of the same prompt, which is costly for long and variable tool-use trajectories. Single-stream Policy Optimization (SPO) removes this dependency with a persistent prompt-level value estimate, but its recipe whitens",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.24870v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-25T17:52:19Z",
-      "modules": [
-        "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.24848v1",
-      "title": "BrowserForge: Scaling Web Episode via Parallel Browser Sandboxes",
-      "summary": "Web agents that act from rendered pixels avoid the fragility and heavy token cost of reading a page's HTML or accessibility tree, but training them depends on large amounts of high-quality interaction trajectories, and how to produce such data at scale remains an open problem. Pu",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.24848v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-25T17:35:42Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2608.24846v1",
-      "title": "FedV-KGQA: Multi-Hop Question Answering over Vertically Partitioned Knowledge Graphs",
-      "summary": "Real-world data for knowledge graph question answering is often distributed across different organizations due to governance and data sovereignty constraints. While centralized systems exist, they cannot answer multi-hop questions when the required facts are split across vertical",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.24846v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-25T17:34:27Z",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.24845v1",
-      "title": "LAION-BVD: A 10-Million-Hour Open Video Dataset for Multimodal Pre-training",
-      "summary": "We present LAION-BVD, a large-scale open video dataset for multimodal learning, which contains 1.3B platform-specific video URLs collected from CommonCrawl. From these, we download 80M videos with a total duration of 10 million hours. The dataset is designed for multimodal pre-tr",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.24845v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-25T17:34:19Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fsearch%2Fhome-decor-tips%2F",
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Home_Decor.max-600x600.format-webp.webp\">Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-      "sourceName": "Google AI Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 25 Aug 2026 16:00:00 +0000",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-granite%2Fgranite-4-2",
-      "title": "Granite 4.2 LLMs: How They&apos;re Built",
-      "summary": "Granite 4.2 LLMs: How They&apos;re Built",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-4-2",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 25 Aug 2026 15:14:14 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2FMultiverseComputingCAI%2Fquantization-aware-healing",
-      "title": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "summary": "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/MultiverseComputingCAI/quantization-aware-healing",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 25 Aug 2026 11:39:24 GMT",
       "modules": [
         "foundations"
       ],
