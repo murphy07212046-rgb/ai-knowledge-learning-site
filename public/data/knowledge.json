@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-09-11T05:55:51.034Z",
+    "updatedAt": "2026-09-12T05:44:30.854Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,66 @@
   ],
   "updates": [
     {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fperplexity-improving-accuracy-with-astra",
+      "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+      "summary": "Perplexity uses Astra to write communications, change software, and monitor production systems, and checks in much less frequently than with earlier models.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Mon, 14 Sep 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "output-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.6.3",
+      "title": "langchain-core==1.6.3",
+      "summary": "<p>Changes since langchain-core==1.6.2</p> <p>release(core): 1.6.3 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5427142095\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40407\" data-hover",
+      "lessonId": "generation",
+      "learningConnection": "这条更新归入「生成与输出」的「LLM 生成」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.3",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-09-11T17:38:04Z",
+      "modules": [
+        "output"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fcognition-devin-testing-with-astra",
+      "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+      "summary": "GPT‑6 Astra improves Devin’s ability to test software and show that it works, with the goal of helping engineers review less code and ship more.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/cognition-devin-testing-with-astra",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 11 Sep 2026 16:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fopenai.com%2Findex%2Fscaling-storage-one-billion-users-part-one",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+      "summary": "Learn how OpenAI evolved Habitat from a Python library into a globally distributed storage platform serving 1 billion ChatGPT users and 22M requests per second.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 11 Sep 2026 10:00:00 GMT",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.2",
       "title": "langchain-anthropic==1.7.2",
       "summary": "<p>Changes since langchain-anthropic==1.7.1</p> <p>release(anthropic): 1.7.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5416260537\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40387\"",
@@ -1586,7 +1646,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.05405v1",
@@ -1601,7 +1661,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2609.05404v1",
@@ -1616,7 +1676,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.05403v1",
@@ -1631,7 +1691,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2609.05401v1",
@@ -1646,7 +1706,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.05396v1",
@@ -1661,7 +1721,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.04199v1",
@@ -2710,66 +2770,6 @@
       "publishedAt": "2026-08-26T17:59:51Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.26095v1",
-      "title": "A Visual Dependence-Aware Framework for Multimodal Unsupervised Continual Post-Training",
-      "summary": "In this paper, we explore a novel task of Multimodal Unsupervised Continual Post-Training (MU-CPT), enabling deployed MLLMs to continually evolve from streaming unlabeled data. Existing unsupervised post-training methods for MLLMs typically optimize target tokens uniformly, overl",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.26095v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-26T17:57:04Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "output-https%3A%2F%2Farxiv.org%2Fabs%2F2608.26094v1",
-      "title": "MyoMechanix: Biomechanically-Grounded Compositional Skilled Activity Understanding and Coaching",
-      "summary": "Existing action quality assessment (AQA) datasets and methods rely primarily on visual inputs such as RGB and pose, overlooking physiological dynamics such as muscle mechanics and often modeling actions as monolithic patterns. These limitations hinder fine-grained, biomechanicall",
-      "lessonId": "generation",
-      "learningConnection": "这条更新归入「生成与输出」的「LLM 生成」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.26094v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-26T17:56:33Z",
-      "modules": [
-        "output"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2608.26091v1",
-      "title": "PlanSightRAG: A Visual-First Multimodal RAG for Automating Question Answering and Compliance Checking for Civil Standard Plans",
-      "summary": "Civil infrastructure compliance checking has long relied on engineers manually reading legacy 2D plans; however, OCR-based automation strips away the geometry and layout essential for interpreting these plans. We present a Visual-First Multimodal Retrieval-Augmented Generation (R",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.26091v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-26T17:54:24Z",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.26090v1",
-      "title": "Finding and using interpretable latents in a neutrino foundation model with sparse autoencoders",
-      "summary": "We present a first application of sparse-autoencoder-based mechanistic interpretability to particle physics. Studying a neutrino foundation model pretrained on IceCube data and fine-tuned for direction reconstruction, we identify a validated atlas of physical concepts in the mode",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.26090v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-26T17:53:00Z",
-      "modules": [
-        "foundations"
       ],
       "isNew": false
     }
