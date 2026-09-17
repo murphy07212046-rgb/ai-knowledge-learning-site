@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-09-16T05:58:13.020Z",
+    "updatedAt": "2026-09-17T06:06:52.710Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,171 @@
   ],
   "updates": [
     {
+      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2609.19145v1",
+      "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+      "summary": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down prunin",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.19145v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-16T17:59:45Z",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.19144v1",
+      "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+      "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with sma",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.19144v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-16T17:59:35Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.19143v1",
+      "title": "PANORAMA: Panoptic Grounded Captioning via Mask Proposal Selection",
+      "summary": "Intelligent systems that act in the world require image understanding that is both comprehensive and spatially grounded. Current vision-language models (VLMs) can generate fluent and detailed image captions, but reliably associating them with image pixels remains challenging. Exi",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.19143v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-16T17:59:30Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2609.19137v1",
+      "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+      "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appropriate contact forces are esse",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.19137v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-16T17:56:44Z",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.19134v1",
+      "title": "ScienceIDE: Turning World's Scientific Codebase into Agent Learnable Environments",
+      "summary": "Scientific code repositories encode decades of human knowledge in executable models, methods, and tools. Yet fragmented toolchains, implicit domain conventions, and specialized correctness criteria make this knowledge difficult to convert into reliable learning experience-a chall",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2609.19134v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-09-16T17:55:47Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.1",
+      "title": "langchain==1.4.1",
+      "summary": "<p>Changes since langchain==1.4.0</p> <p>release(langchain): 1.4.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5471494656\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40498\" data-hover",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.1",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-09-16T17:07:04Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fmodel-misalignment-reporting-framework",
+      "title": "Our framework for reporting model misalignment",
+      "summary": "OpenAI shares a framework for tracking, investigating, and disclosing model misalignment, alongside six reports of unexpected or concerning model behavior.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/model-misalignment-reporting-framework",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 16 Sep 2026 17:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fhelping-older-adults-use-ai-in-everyday-life",
+      "title": "Helping older adults use AI in everyday life",
+      "summary": "OpenAI and AARP are bringing free, hands-on ChatGPT workshops to 1,000 older adults across 10 U.S. cities to build practical AI skills safely.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 16 Sep 2026 16:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Freimagining-advertising-with-ai",
+      "title": "Reimagining advertising with AI",
+      "summary": "Explore new AI-powered advertising experiences from OpenAI, including Sponsored Agents, tools for marketers, and integrations with HubSpot and Shopify.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/reimagining-advertising-with-ai",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 16 Sep 2026 13:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fhow-to-connect-ai-usage-to-business-value",
+      "title": "How to connect AI usage to business value",
+      "summary": "Learn how ChatGPT Work and Codex analytics help teams understand AI usage and spend, identify training needs, and connect adoption to business outcomes.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 16 Sep 2026 12:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Funlocking-new-ways-of-working",
+      "title": "How workers are unlocking new ways of working",
+      "summary": "New OpenAI Economic Research shows how workers use AI beyond traditional roles and which new activities become recurring parts of their work.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/unlocking-new-ways-of-working",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 16 Sep 2026 09:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2609.17527v1",
       "title": "Agentic Societies Need a Social Harness",
       "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach sa",
@@ -1406,7 +1571,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fgradio-workflow-1111",
@@ -1421,7 +1586,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fasyncgrpo-lora-hfjobs",
@@ -1436,7 +1601,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.6.2",
@@ -1451,7 +1616,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.10539v1",
@@ -1466,7 +1631,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.10522v1",
@@ -1481,7 +1646,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.10494v1",
@@ -1496,7 +1661,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2609.10464v1",
@@ -1511,7 +1676,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fpaul-christiano-joins-openai-foundation-board",
@@ -1526,7 +1691,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2609.10451v1",
@@ -1541,7 +1706,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fsearch%2Ffootball-features-google-search%2F",
@@ -1556,7 +1721,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Flove-rendered-film%2F",
@@ -1571,7 +1736,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-research%2Fibm-releases-sota-granite-time-series",
@@ -1586,7 +1751,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fai-policy-window",
@@ -1601,7 +1766,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "output-https%3A%2F%2Fopenai.com%2Findex%2Fgpt-6-astra-next-generation-work",
@@ -1616,7 +1781,7 @@
       "modules": [
         "output"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2609.09158v1",
@@ -2603,171 +2768,6 @@
       "sourceName": "OpenAI News",
       "sourceType": "official",
       "publishedAt": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "output-https%3A%2F%2Fopenai.com%2Findex%2Fpolimill",
-      "title": "Polimill builds Japan's next-generation public AI infrastructure",
-      "summary": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "lessonId": "generation",
-      "learningConnection": "这条更新归入「生成与输出」的「LLM 生成」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/polimill",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Mon, 31 Aug 2026 07:00:00 GMT",
-      "modules": [
-        "output"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fexpanding-access-to-ai-with-chatgpt-ads",
-      "title": "A milestone in expanding access to AI",
-      "summary": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Mon, 31 Aug 2026 04:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28578v1",
-      "title": "Aero Hand Open: A Simulation-Ready Tendon-Driven Hand for Dexterous Manipulation Learning",
-      "summary": "Tendon-driven hands are anthropomorphic, and moving the actuators off the joints is what makes a hand of this capability affordable to build. Two effects produce that saving. Routing force through a cable removes the requirement that a motor fit inside the joint it drives, so sma",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.28578v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-28T17:53:48Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28576v1",
-      "title": "Learning a Size-Weight Frontier for Synthetic-Augmented Inference",
-      "summary": "Synthetic data can improve statistical inference when real data are scarce, but naively treating synthetic samples as real data can introduce bias and lead to unreliable inference. We develop a general framework for synthetic-augmented inference across a population of related tas",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.28576v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-28T17:52:33Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28560v1",
-      "title": "A Formal Limitation on Learning Human Language From Textual Corpora",
-      "summary": "Can a listener recover what a speaker means from the form of an utterance alone? We answer this question information-theoretically, and for a listener given by any featurizer of text, including the hidden states of contemporary large language models. Modeling language use as a jo",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.28560v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-28T17:38:24Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28557v1",
-      "title": "Blog: Survey of Optimizers",
-      "summary": "Neural-network optimization in 2025-2026 is no longer well described as a succession of new Adam variants. The design space has expanded from coordinates to matrices and layers, from fixed training horizons to policies over time, and from mathematical update rules to state repres",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.28557v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-28T17:35:11Z",
-      "modules": [
-        "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2608.28553v1",
-      "title": "Logos: An Agent Harness on a Cross-Process Bus",
-      "summary": "Modern agent systems assemble capabilities at runtime, and this dynamic composition has recently received a complete formal treat ment in the spatiotemporal-composability calculus, in which a capability is a component carrying a tracked inverse, and agents are assembled as plugin",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2608.28553v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-08-28T17:30:10Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.0a2",
-      "title": "langchain==1.4.0a2",
-      "summary": "<p>Alpha preview of <code>langchain.mcp</code> — a first-party adapter that turns any MCP server into LangChain tools you can hand straight to <code>create_agent</code>.</p> <p>Connection handling is <a href=\"https://gofastmcp.com/clients/client\" rel=\"nofollow\">FastMCP</a>'s, so",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a2",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-08-28T16:58:59Z",
-      "modules": [
-        "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Four-decision-on-cursor-following-its-acquisition-by-spacex",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "summary": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Fri, 28 Aug 2026 06:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "output-https%3A%2F%2Fopenai.com%2Findex%2Fsupporting-next-generation-ai-startups-thailand",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "summary": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "lessonId": "generation",
-      "learningConnection": "这条更新归入「生成与输出」的「LLM 生成」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Fri, 28 Aug 2026 02:00:00 GMT",
-      "modules": [
-        "output"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fopen-asr-leaderboard-global-south",
-      "title": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "summary": "The Open ASR Leaderboard Adds Its First Global South Language",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/open-asr-leaderboard-global-south",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Fri, 28 Aug 2026 00:00:00 GMT",
       "modules": [
         "foundations"
       ],
