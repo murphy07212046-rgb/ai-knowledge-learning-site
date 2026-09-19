@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-09-18T05:53:04.219Z",
+    "updatedAt": "2026-09-19T05:49:15.160Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,66 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.2",
+      "title": "langchain==1.4.2",
+      "summary": "<p>Changes since langchain==1.4.1</p> <p>release(langchain): 1.4.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5502481726\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40621\" data-hover",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-09-18T17:31:27Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fexpanding-ai-economy-research-bench%2F",
+      "title": "New experts join Google’s AI & Economy team",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp\">We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 18 Sep 2026 14:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fgoogle-flow-fashion-week%2F",
+      "title": "Co-creating the future of fashion with Google",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Blog_Header_V2.max-600x600.format-webp.webp\">Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 18 Sep 2026 13:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Faustralian-youth-safety-blueprint",
+      "title": "Introducing the Australian Youth Safety Blueprint",
+      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/australian-youth-safety-blueprint",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 18 Sep 2026 12:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-typesafe%253D%253D0.0.1a2",
       "title": "langchain-typesafe==0.0.1a2",
       "summary": "<p>Initial release</p> <p>release(typesafe): bump to 0.0.1a2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5493276959\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40576\" data-hovercard-t",
@@ -1511,7 +1571,7 @@
       "modules": [
         "output"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fcognition-devin-testing-with-astra",
@@ -1526,7 +1586,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fopenai.com%2Findex%2Fscaling-storage-one-billion-users-part-one",
@@ -1541,7 +1601,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.2",
@@ -2710,66 +2770,6 @@
       "publishedAt": "2026-09-01T17:59:13Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2609.01597v1",
-      "title": "The Rise of Verbal Reinforcement Learning",
-      "summary": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.01597v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-01T17:58:18Z",
-      "modules": [
-        "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.0a3",
-      "title": "langchain==1.4.0a3",
-      "summary": "<p>Third alpha of the <code>1.4.0</code> line. This release focuses on the new <code>langchain.mcp</code> namespace for adapting MCP servers into LangChain tools.</p> <h2><code>langchain.mcp</code> highlights</h2> <ul> <li><strong><code>MCPAdapter</code></strong> adapts any targe",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.0a3",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-09-01T17:22:31Z",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fai-native-company-workflows",
-      "title": "How AI-native companies turn workflows into operating capability",
-      "summary": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/ai-native-company-workflows",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Tue, 01 Sep 2026 17:00:00 GMT",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Fblog.google%2Fproducts-and-platforms%2Fproducts%2Fworkspace%2Fgoogle-pics%2F",
-      "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.max-600x600.format-webp.webp\">Built on our latest Nano Banana model, Google Pics — our image creation and editing tool — is now available.",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "sourceName": "Google AI Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 01 Sep 2026 16:00:00 +0000",
-      "modules": [
-        "knowledge"
       ],
       "isNew": false
     }
