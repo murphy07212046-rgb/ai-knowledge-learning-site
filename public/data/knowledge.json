@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-03T06:26:50.061Z",
+    "updatedAt": "2026-10-04T06:48:35.293Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -973,6 +973,21 @@
     }
   ],
   "updates": [
+    {
+      "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmicrosoft%2Fthinkingbox",
+      "title": "The Agent Said It Was Done. The Database Disagreed.",
+      "summary": "The Agent Said It Was Done. The Database Disagreed.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Sat, 03 Oct 2026 22:56:48 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
     {
       "id": "input-https%3A%2F%2Fopenai.com%2Findex%2Fpractical-guide-building-gpt-6",
       "title": "A model guide for the GPT-6 family",
@@ -2755,21 +2770,6 @@
       "publishedAt": "2026-09-17T18:07:14Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2609.20822v1",
-      "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
-      "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. W",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.20822v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-17T17:59:58Z",
-      "modules": [
-        "agent"
       ],
       "isNew": false
     }
