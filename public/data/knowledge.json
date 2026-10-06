@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-05T06:58:06.388Z",
+    "updatedAt": "2026-10-06T07:30:38.994Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,51 @@
   ],
   "updates": [
     {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Ftiiuae%2Ffalcon-emirati",
+      "title": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "summary": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Tue, 06 Oct 2026 06:44:39 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Feu-text-provenance",
+      "title": "Our approach to EU text provenance rules",
+      "summary": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/eu-text-provenance",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Mon, 05 Oct 2026 15:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fnew-chatgpt-ads-format-and-measurement",
+      "title": "Building advertising for the way people use AI",
+      "summary": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Mon, 05 Oct 2026 10:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmicrosoft%2Fthinkingbox",
       "title": "The Agent Said It Was Done. The Database Disagreed.",
       "summary": "The Agent Said It Was Done. The Database Disagreed.",
@@ -1526,7 +1571,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-fireworks%253D%253D1.7.0",
@@ -1541,7 +1586,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.3",
@@ -1556,7 +1601,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fhow-we-will-do-better-for-australia",
@@ -1571,7 +1616,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fwinner-future-vision-xprize%2F",
@@ -1586,7 +1631,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Ftowards-safety-cases-for-frontier-ai-training",
@@ -1601,7 +1646,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.35770v1",
@@ -1616,7 +1661,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.35769v1",
@@ -1631,7 +1676,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.35767v1",
@@ -1646,7 +1691,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.35765v1",
@@ -1661,7 +1706,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.35759v1",
@@ -1676,7 +1721,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2FHcompany%2Fholo4",
@@ -1691,7 +1736,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Flenfest-ai-collaborative-expansion",
@@ -1706,7 +1751,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Fform%2Fcodex-originals",
@@ -2725,51 +2770,6 @@
       "publishedAt": "2026-09-18T17:55:09Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2609.22056v1",
-      "title": "Predictable Failure in Multi-Hop Retrieval: Score-Distributional Confidence Scoring and Abstention",
-      "summary": "Multi-hop retrieval failures are not uniformly distributed across queries: they cluster in structurally predictable subpopulations. We prove two results formalizing this structure. First (CWAR Reducibility): confident-failure reduction is achievable if and only if retrieval featu",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.22056v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-18T17:48:15Z",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.2",
-      "title": "langchain==1.4.2",
-      "summary": "<p>Changes since langchain==1.4.1</p> <p>release(langchain): 1.4.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5502481726\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40621\" data-hover",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.2",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-09-18T17:31:27Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fexpanding-ai-economy-research-bench%2F",
-      "title": "New experts join Google’s AI & Economy team",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/AI__Economy_team_hero.max-600x600.format-webp.webp\">We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "sourceName": "Google AI Blog",
-      "sourceType": "official",
-      "publishedAt": "Fri, 18 Sep 2026 14:00:00 +0000",
-      "modules": [
-        "knowledge"
       ],
       "isNew": false
     }
