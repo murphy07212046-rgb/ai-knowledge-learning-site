@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-09T07:20:20.120Z",
+    "updatedAt": "2026-10-10T07:01:10.251Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,51 @@
   ],
   "updates": [
     {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fimpactful-scheduling",
+      "title": "Impactful scheduling for GPU clusters",
+      "summary": "Impactful scheduling for GPU clusters",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/allenai/impactful-scheduling",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 09 Oct 2026 15:20:29 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fsophos",
+      "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+      "summary": "Discover how Sophos uses OpenAI’s Daybreak to cut cyber-threat investigation time by 96% and automate 52% of MDR cases while preserving human oversight.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/sophos",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fasana-browser-agent",
+      "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "summary": "Using GPT-6 Astra in Codex, Asana made its browser agent 76x cheaper and 5x faster in tests to offer customers more capable models.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/asana-browser-agent",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.4",
       "title": "langchain==1.4.4",
       "summary": "<p>Changes since langchain==1.4.3</p> <p>release(langchain): 1.4.4 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5769577318\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41163\" data-hover",
@@ -1616,7 +1661,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2610.03715v1",
@@ -1631,7 +1676,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.03713v1",
@@ -1646,7 +1691,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2610.03710v1",
@@ -1661,7 +1706,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.03695v1",
@@ -1676,7 +1721,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Fopenai.com%2Findex%2Fpractical-guide-building-gpt-6",
@@ -1691,7 +1736,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-text-splitters%253D%253D1.1.3",
@@ -1706,7 +1751,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "output-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fastabrief",
@@ -1721,7 +1766,7 @@
       "modules": [
         "output"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fgoogle-ai-updates-september-2026%2F",
@@ -1736,7 +1781,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2FServiceNow-AI%2Fautosynthdata",
@@ -2725,51 +2770,6 @@
       "publishedAt": "2026-09-23T15:31:54Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fopenai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 23 Sep 2026 13:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fsam-altman-un-security-council-remarks",
-      "title": "Sam Altman’s remarks at the United Nations Security Council",
-      "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/sam-altman-un-security-council-remarks",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fharvey-from-context-to-confidence-with-astra",
-      "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 23 Sep 2026 12:00:00 GMT",
-      "modules": [
-        "foundations"
       ],
       "isNew": false
     }
