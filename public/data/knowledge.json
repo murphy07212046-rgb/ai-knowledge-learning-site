@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-11T07:08:13.442Z",
+    "updatedAt": "2026-10-12T07:18:30.494Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -973,6 +973,81 @@
     }
   ],
   "updates": [
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13948v1",
+      "title": "Can Language Models Play the Wikipedia Game?",
+      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous informati",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.13948v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-09T17:59:56Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13935v1",
+      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regressio",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.13935v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-09T17:56:59Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13912v1",
+      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
+      "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anythi",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.13912v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-09T17:50:30Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13910v1",
+      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
+      "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric f",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.13910v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-09T17:50:03Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13909v1",
+      "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+      "summary": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of research offer alternatives to the standard Mean Squared Error (MS",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.13909v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-09T17:49:32Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fimpactful-scheduling",
       "title": "Impactful scheduling for GPU clusters",
@@ -2693,81 +2768,6 @@
       "sourceName": "LangChain Releases",
       "sourceType": "official",
       "publishedAt": "2026-09-23T17:56:05Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.28467v1",
-      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
-      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an importa",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.28467v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-23T17:55:48Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.28449v1",
-      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
-      "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasonin",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.28449v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-23T17:46:50Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2609.28442v1",
-      "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
-      "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under mult",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.28442v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-23T17:40:57Z",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Ftwo-years-of-openai-academy",
-      "title": "Two years of OpenAI Academy",
-      "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/two-years-of-openai-academy",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 23 Sep 2026 16:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.6.5",
-      "title": "langchain-openai==1.6.5",
-      "summary": "<p>Changes since langchain-openai==1.6.4</p> <p>release(openai): 1.6.5 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5555490330\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40787\" data-h",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.5",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-09-23T15:31:54Z",
       "modules": [
         "operations"
       ],
