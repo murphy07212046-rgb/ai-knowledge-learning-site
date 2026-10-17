@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-16T05:48:15.556Z",
+    "updatedAt": "2026-10-17T05:33:14.577Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,36 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.6.12",
+      "title": "langchain-core==1.6.12",
+      "summary": "<p>Changes since langchain-core==1.6.11</p> <p>release(core): 1.6.12 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5889784950\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41277\" data-hov",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.12",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-10-16T19:28:46Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fitau-generative-ai",
+      "title": "How Itaú is building generative AI for its entire customer base",
+      "summary": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/itau-generative-ai",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 16 Oct 2026 19:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fscaling-indic-pretraining",
       "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
       "summary": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
@@ -983,6 +1013,51 @@
       "sourceName": "Hugging Face Blog",
       "sourceType": "official",
       "publishedAt": "Fri, 16 Oct 2026 01:44:47 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fstack-overflow-chatgpt-plugin",
+      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
+      "summary": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/stack-overflow-chatgpt-plugin",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fbenefit-street-partners",
+      "title": "Benefit Street Partners answers questions faster with Codex",
+      "summary": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/benefit-street-partners",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Freflection-beam",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "summary": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/reflection-beam",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 16 Oct 2026 00:00:00 GMT",
       "modules": [
         "foundations"
       ],
@@ -1556,7 +1631,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13935v1",
@@ -1571,7 +1646,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13912v1",
@@ -1586,7 +1661,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13910v1",
@@ -1601,7 +1676,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13909v1",
@@ -1616,7 +1691,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fimpactful-scheduling",
@@ -1631,7 +1706,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fsophos",
@@ -1646,7 +1721,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fasana-browser-agent",
@@ -1661,7 +1736,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.4",
@@ -2695,81 +2770,6 @@
       "publishedAt": "2026-09-29T17:59:40Z",
       "modules": [
         "output"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.38166v1",
-      "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
-      "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.38166v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-29T17:59:34Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2609.38157v1",
-      "title": "EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation",
-      "summary": "Emotion-conditioned text-to-speech (TTS) models may fail to express the requested emotion reliably, and improving controllability by additional training is costly in both computation and emotion-labeled speech training data. We therefore study vector steering, a training-free app",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2609.38157v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-09-29T17:59:05Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fkumo-tabular",
-      "title": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "summary": "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/nvidia/kumo-tabular",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 29 Sep 2026 15:30:38 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.5",
-      "title": "langchain-anthropic==1.7.5",
-      "summary": "<p>Changes since langchain-anthropic==1.7.4</p> <p>release(anthropic): 1.7.5 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5632534192\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40912\"",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.5",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-09-29T15:22:22Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.6.6",
-      "title": "langchain-core==1.6.6",
-      "summary": "<p>Changes since langchain-core==1.6.5</p> <p>release(core): 1.6.6 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5631108062\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/40906\" data-hover",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.6",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-09-29T14:53:13Z",
-      "modules": [
-        "operations"
       ],
       "isNew": false
     }
