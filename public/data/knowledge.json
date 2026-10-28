@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-27T06:13:52.618Z",
+    "updatedAt": "2026-10-28T06:49:34.421Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,171 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.7",
+      "title": "langchain-anthropic==1.7.7",
+      "summary": "<p>Changes since langchain-anthropic==1.7.6</p> <p>release(anthropic): 1.7.7 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6069329023\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41538\"",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.7",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-10-27T23:48:26Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.37668v1",
+      "title": "Honeycomb-Surfels: Compact Hexagonal Primitives for Efficient Scene Rendering and Reconstruction",
+      "summary": "Novel view synthesis and 3D reconstruction have advanced rapidly with radiance fields and splatting, yet their memory and computational demands limit their use in resource-constrained settings. We introduce Hexels: novel planar hexagonal surface elements with a first-order spatia",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.37668v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-27T17:59:59Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2610.37666v1",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "summary": "Vision-Language-Action (VLA) models have made substantial progress in robotic manipulation, but their generalization remains constrained by the diversity and coverage of action-labeled robot demonstrations. Human videos provide much broader behavioral and environmental experience",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.37666v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-27T17:59:52Z",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2610.37657v1",
+      "title": "Heads of Security: Learned Attention Gates Improve Prompt Injection Robustness",
+      "summary": "We introduce Heads of Security (HoS), a prompt injection defense that enforces instruction-data separation via a small set of learned per-head attention gates. HoS learns how each head should redistribute attention between trusted and untrusted tokens, enabling models to reason o",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.37657v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-27T17:58:52Z",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.37656v1",
+      "title": "Attention as Lattice Gauge Theory: Relations Interact Only Through Wilson Loops",
+      "summary": "Relations compose through the entity they share - Alice is Bob's mother and Bob is Carol's father, so Alice is Carol's grandmother - and the order matters, since a father's mother is not a mother's father; verifying a composed relation means closing the loop. We show that if each",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.37656v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-27T17:58:48Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.37655v1",
+      "title": "KPPax: preprocess differentiable kinetic ODE for machine learning in atmospheric chemistry",
+      "summary": "Atmospheric chemical mechanisms are commonly distributed in the language of the Kinetic PreProcessor (KPP), which generates efficient Fortran or C code but does not fit into the differentiable programming frameworks in which machine-learning models are developed. We present KPPax",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.37655v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-27T17:58:40Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Flfm3",
+      "title": "Build specialized multimodal models with LFM3",
+      "summary": "Build specialized multimodal models with LFM3",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Tue, 27 Oct 2026 17:16:52 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fnovelty-bench",
+      "title": "Can we trust LLMs to judge whether a research idea is novel?",
+      "summary": "Can we trust LLMs to judge whether a research idea is novel?",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/allenai/novelty-bench",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Tue, 27 Oct 2026 16:12:42 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fretell-ai",
+      "title": "Retell uses OpenAI models to help power 100M monthly calls",
+      "summary": "GPT-6 Astra tops Retell’s voice agent benchmark, while Codex helps it reach a $1.6M annual revenue run rate per employee.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/retell-ai",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Tue, 27 Oct 2026 15:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Foracle-apps-in-chatgpt",
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
+      "summary": "OpenAI and Oracle are expanding their partnership to bring business applications and AI agents into ChatGPT and power new Oracle offerings.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fcheck-point-daybreak",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "summary": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/check-point-daybreak",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Tue, 27 Oct 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.7.3",
       "title": "langchain-openai==1.7.3",
       "summary": "<p>Changes since langchain-openai==1.7.2</p> <p>test(openai): use current lightweight model in integration tests (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6047214550\" data-permission-text=\"Title is private\" data-url=\"https://github.com/l",
@@ -1676,7 +1841,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fcosmos3-h-dreams",
@@ -1691,7 +1856,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.28632v1",
@@ -1706,7 +1871,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.28629v1",
@@ -1721,7 +1886,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.28626v1",
@@ -1736,7 +1901,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.28624v1",
@@ -1751,7 +1916,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.28622v1",
@@ -1766,7 +1931,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Ffairstress",
@@ -1781,7 +1946,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-research%2Faltk-evolve-bc",
@@ -1796,7 +1961,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fted-taylor-restaurant",
@@ -1811,7 +1976,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fterminal-x",
@@ -1826,7 +1991,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fopenai-to-acquire-orchestra-bio",
@@ -2605,171 +2770,6 @@
       "publishedAt": "2026-10-13T17:59:31Z",
       "modules": [
         "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2FLiquidAI%2Flfm25-24b-a2b",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 13 Oct 2026 17:05:48 GMT",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgemini-models%2Fintroducing-gemini-4-argon%2F",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-argon__blog-header__27.max-600x600.format-webp.webp\">We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "sourceName": "Google AI Blog",
-      "sourceType": "official",
-      "publishedAt": "Tue, 13 Oct 2026 16:00:00 +0000",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fhiggsfield-longer-videos-voice",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "summary": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Tue, 13 Oct 2026 12:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.5",
-      "title": "langchain==1.4.5",
-      "summary": "<p>Changes since langchain==1.4.4</p> <p>release(langchain): 1.4.5 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5818659625\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41226\" data-hover",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.5",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-10-12T19:28:43Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.6",
-      "title": "langchain-anthropic==1.7.6",
-      "summary": "<p>Changes since langchain-anthropic==1.7.5</p> <p>release(anthropic): 1.7.6 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5813510779\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41221\"",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.6",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-10-12T14:40:17Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.7.1",
-      "title": "langchain-openai==1.7.1",
-      "summary": "<p>Changes since langchain-openai==1.7.0</p> <p>release(openai): 1.7.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5813511636\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41222\" data-h",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.1",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-10-12T14:33:11Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.6.10",
-      "title": "langchain-core==1.6.10",
-      "summary": "<p>Changes since langchain-core==1.6.9</p> <p>release(core): 1.6.10 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5813509761\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41220\" data-hove",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.10",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-10-12T14:14:05Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13948v1",
-      "title": "Can Language Models Play the Wikipedia Game?",
-      "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous informati",
-      "lessonId": "context-window",
-      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.13948v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-09T17:59:56Z",
-      "modules": [
-        "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13935v1",
-      "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
-      "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regressio",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.13935v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-09T17:56:59Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13912v1",
-      "title": "RSI-Anything: Unlocking Recursive Self-Improvement with World Models",
-      "summary": "Recursive self-improvement (RSI) aims to transform interaction experience into persistent improvements, yet external feedback is costly and world-model predictions may become unreliable as policies evolve. We introduce RSI-Anything, a domain-general framework built on JEPA-Anythi",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.13912v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-09T17:50:30Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.13910v1",
-      "title": "When VLMs Destroy What They Know: Spatial Representations Fall Below Lexical Priors",
-      "summary": "Vision-Language Models (VLMs) increasingly analyze and reason about images, yet it remains unclear whether their internal representations faithfully encode the structured relations required for such reasoning. We introduce EICS (Evaluation-Invariant Concept Stability), a metric f",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.13910v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-09T17:50:03Z",
-      "modules": [
-        "operations"
       ],
       "isNew": false
     }
