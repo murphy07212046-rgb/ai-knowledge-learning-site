@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-10-29T07:00:11.151Z",
+    "updatedAt": "2026-10-30T07:02:57.765Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,216 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.7.3",
+      "title": "langchain-core==1.7.3",
+      "summary": "<p>Changes since langchain-core==1.7.2</p> <p>release(core): 1.7.3 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6107963409\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41564\" data-hover",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.3",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-10-29T20:56:14Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.7.2",
+      "title": "langchain-core==1.7.2",
+      "summary": "<p>Changes since langchain-core==1.7.1</p> <p>release(core): 1.7.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6106018317\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41562\" data-hover",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.7.2",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-10-29T19:04:31Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.40655v1",
+      "title": "Elucidating the Design Space of LM Data Attribution",
+      "summary": "Data attribution methods for Language Models (LMs) are typically evaluated using downstream tasks like fact retrieval. However, existing evaluations vary multiple dataset properties simultaneously, making it impossible to isolate exactly why an attribution algorithm fails. To dia",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.40655v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-29T17:59:53Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.40649v1",
+      "title": "Rethinking Neural Thickets Without Weight Perturbations",
+      "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanatio",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.40649v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-29T17:59:29Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.40647v1",
+      "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
+      "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency struct",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.40647v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-29T17:59:21Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.40643v1",
+      "title": "Luggage re-identification: A study of strategies towards a real-world application",
+      "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same lugg",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.40643v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-29T17:58:59Z",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2610.40641v1",
+      "title": "From extreme weather to agricultural consequences with agentic AI",
+      "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agen",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://arxiv.org/abs/2610.40641v1",
+      "sourceName": "arXiv AI",
+      "sourceType": "research",
+      "publishedAt": "2026-10-29T17:58:53Z",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fopenai.com%2Findex%2Fupdated-model-spec",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/updated-model-spec",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 17:00:00 GMT",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-granite%2Fgranite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "summary": "Granite Switch 4.1.1 — Update models like you update software",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 13:37:07 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fhow-we-detect-frontier-model-misalignment",
+      "title": "How we detect frontier model misalignment",
+      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 09:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fropes-gray-ai-diligence",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fannouncing-project-protostar",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "summary": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmistral-large4",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "summary": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/mistral-large4",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fhuggingface.co%2Fblog%2Fanydecisionmodel",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "summary": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/anydecisionmodel",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
+      "modules": [
+        "input"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.7.1",
       "title": "langchain-core==1.7.1",
       "summary": "<p>Changes since langchain-core==1.7.0</p> <p>release(core): version 1.7.1 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6080756863\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41548\" da",
@@ -1451,7 +1661,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Ftorch-neuronx-model-support",
@@ -1466,7 +1676,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmicrosoft%2Fthinkingbox-training",
@@ -1481,7 +1691,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fopenai.com%2Findex%2Fdecisions-api",
@@ -1496,7 +1706,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31667v1",
@@ -1511,7 +1721,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31657v1",
@@ -1526,7 +1736,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31656v1",
@@ -1541,7 +1751,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31650v1",
@@ -1556,7 +1766,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31646v1",
@@ -1571,7 +1781,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.7.0",
@@ -1586,7 +1796,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Folmoearth-v1-3",
@@ -1601,7 +1811,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-research%2Fgranite-timeseries-ensemble-r1",
@@ -1616,7 +1826,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fforward-deployed-engineering-means",
@@ -2560,216 +2770,6 @@
       "publishedAt": "Thu, 15 Oct 2026 00:00:00 GMT",
       "modules": [
         "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fflux-3",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "summary": "Welcome FLUX.3 Image Klein in Diffusers",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/flux-3",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Thu, 15 Oct 2026 00:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.20606v1",
-      "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-      "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.20606v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-14T17:59:52Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.20607v1",
-      "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-      "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical R",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.20607v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-14T17:59:52Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.20597v1",
-      "title": "Co-Evolving Acting and Forecasting for Language Agents",
-      "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused. Prior work exploits this supervision throu",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.20597v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-14T17:59:28Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.20588v1",
-      "title": "Your Transformer Is Secretly Elastic",
-      "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to commit to a model based on hardware and latency constraints. T",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.20588v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-14T17:58:08Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.20587v1",
-      "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
-      "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.20587v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-14T17:57:57Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.4.6",
-      "title": "langchain==1.4.6",
-      "summary": "<p>Changes since langchain==1.4.5</p> <p>release(langchain): 1.4.6 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5851991802\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41247\" data-hover",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.4.6",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-10-14T17:28:08Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fhiro-acev2",
-      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "summary": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/allenai/hiro-acev2",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Wed, 14 Oct 2026 16:12:42 GMT",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.7.2",
-      "title": "langchain-openai==1.7.2",
-      "summary": "<p>Changes since langchain-openai==1.7.1</p> <p>release(openai): 1.7.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"5848794503\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41245\" data-h",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.2",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-10-14T13:51:18Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Famp-beyond-coding",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "summary": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/amp-beyond-coding",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fsentinelone",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "summary": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/sentinelone",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 14 Oct 2026 12:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fthird-moment-research",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "summary": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/third-moment-research",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fblock-ai-powered-security",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "summary": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/block-ai-powered-security",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fthe-eus-next-chapter-in-ai-is-agentic",
-      "title": "The EU’s next chapter in AI is agentic",
-      "summary": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
-      "modules": [
-        "agent"
       ],
       "isNew": false
     }
