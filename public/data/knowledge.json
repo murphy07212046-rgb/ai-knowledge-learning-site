@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-11-06T07:52:57.417Z",
+    "updatedAt": "2026-11-07T07:03:28.247Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,66 @@
   ],
   "updates": [
     {
+      "id": "operations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Ftoyblocks",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "summary": "ToyBlocks: A controlled world for robot learning and evaluation",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/allenai/toyblocks",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 06 Nov 2026 14:00:48 GMT",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fpartnering-with-hacktron",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/partnering-with-hacktron",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 06 Nov 2026 08:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fmeasuring-how-ai-agents-handle-wet-lab-science",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fopen-asr-leaderboard-liva",
+      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "summary": "Egyptian and Nigerian English join the Open ASR Leaderboard",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/open-asr-leaderboard-liva",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 06 Nov 2026 00:00:00 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-typesafe%253D%253D0.0.2",
       "title": "langchain-typesafe==0.0.2",
       "summary": "<p>Changes since langchain-typesafe==0.0.1</p> <p>release(typesafe): 0.0.2 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6230967008\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41720\" da",
@@ -1856,7 +1916,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42148v1",
@@ -1871,7 +1931,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42147v1",
@@ -1886,7 +1946,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42146v1",
@@ -1901,7 +1961,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42141v1",
@@ -1916,7 +1976,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fnemotron-halloween",
@@ -1931,7 +1991,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fhelping-websites-express-ai-training-preferences",
@@ -1946,7 +2006,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fcommunity-safety-report-and-new-protections-for-teens",
@@ -1961,7 +2021,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Ffair-use-benefits-everyone",
@@ -2710,66 +2770,6 @@
       "publishedAt": "Thu, 22 Oct 2026 19:00:00 GMT",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31667v1",
-      "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-      "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so r",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.31667v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-22T17:59:48Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31657v1",
-      "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-      "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.31657v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-22T17:58:52Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31656v1",
-      "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-      "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based a",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.31656v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-22T17:58:27Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.31650v1",
-      "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-      "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We int",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.31650v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-22T17:57:04Z",
-      "modules": [
-        "foundations"
       ],
       "isNew": false
     }
