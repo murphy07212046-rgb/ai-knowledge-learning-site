@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-11-11T07:42:57.834Z",
+    "updatedAt": "2026-11-12T08:14:32.245Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -989,6 +989,96 @@
       "isNew": true
     },
     {
+      "id": "foundations-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fdevelopers-tools%2Fgemini-decisions-api%2F",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "summary": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Wed, 11 Nov 2026 18:00:00 +0000",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-typesafe%253D%253D0.1.0",
+      "title": "langchain-typesafe==0.1.0",
+      "summary": "<p><strong><code>langchain-typesafe</code> 0.1.0 drops support for Python 3.10</strong>, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum <code>langchain-core</code> version is now 1.8.0 (<code>langchain</code> 1.5.0 for the <code>e",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-typesafe%3D%3D0.1.0",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-11-11T16:14:25Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Fmodels-and-research%2Fgoogle-labs%2Ftabletop%2F",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/labs_tabletop_blog_image_2784x1.max-600x600.format-webp.webp\">Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the wa",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain%253D%253D1.5.0",
+      "title": "langchain==1.5.0",
+      "summary": "<p><strong><code>langchain</code> 1.5.0 drops support for Python 3.10</strong>, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum <code>langchain-core</code> version is now 1.8.0. Users on Python 3.10 will continue to resolve <code>l",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain%3D%3D1.5.0",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-11-11T15:47:24Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.8.0",
+      "title": "langchain-core==1.8.0",
+      "summary": "<p><strong><code>langchain-core</code> 1.8.0 drops support for Python 3.10</strong>, which has reached end-of-life. The minimum supported version is now Python 3.11. Users on Python 3.10 will continue to resolve <code>langchain-core</code> 1.7.x.</p> <p>Changes since langchain-co",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.8.0",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-11-11T15:22:09Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "knowledge-https%3A%2F%2Fblog.google%2Fcompany-news%2Foutreach-and-initiatives%2Farts-culture%2Festher-mahlangu%2F",
+      "title": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "summary": "<img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/esther_video_still.max-600x600.format-webp.webp\">A new online archive of Esther Mahlangu’s life and art is now on Google Arts & Culture.",
+      "lessonId": "context-window",
+      "learningConnection": "这条更新归入「信息与知识」的「Context Window」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "sourceName": "Google AI Blog",
+      "sourceType": "official",
+      "publishedAt": "Wed, 11 Nov 2026 09:00:00 +0000",
+      "modules": [
+        "knowledge"
+      ],
+      "isNew": true
+    },
+    {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fchatgpt-plus-for-veterans",
       "title": "ChatGPT Plus for veterans and servicemembers",
       "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
@@ -1015,6 +1105,36 @@
       "publishedAt": "Wed, 11 Nov 2026 05:01:16 GMT",
       "modules": [
         "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fopenai.com%2Findex%2Fjiostar-vijay-seshadri",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/jiostar-vijay-seshadri",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "input-https%3A%2F%2Fhuggingface.co%2Fblog%2Ftoken-pooling",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "summary": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "lessonId": "tokens",
+      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/token-pooling",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Wed, 11 Nov 2026 00:00:00 GMT",
+      "modules": [
+        "input"
       ],
       "isNew": true
     },
@@ -1736,7 +1856,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fsetting-new-standard-responsible-ai-infrastructure",
@@ -1751,7 +1871,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.7.6",
@@ -1766,7 +1886,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Fhuggingface.co%2Fblog%2Fphonon-tts",
@@ -1781,7 +1901,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-fireworks%253D%253D1.7.2",
@@ -1796,7 +1916,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.06914v1",
@@ -1811,7 +1931,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.06911v1",
@@ -1826,7 +1946,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2611.06910v1",
@@ -1841,7 +1961,7 @@
       "modules": [
         "agent"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.06908v1",
@@ -1856,7 +1976,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.06899v1",
@@ -1871,7 +1991,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2FDharma-AI%2Fdharma-field-extractor",
@@ -1886,7 +2006,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.7.4",
@@ -1901,7 +2021,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.7.5",
@@ -1916,7 +2036,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fopenai-to-acquire-pierre",
@@ -1931,7 +2051,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fa-thousand-fewer-paths-to-root",
@@ -1946,7 +2066,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fdaybreak-red-aws-govcloud",
@@ -2650,126 +2770,6 @@
       "publishedAt": "2026-10-29T17:58:59Z",
       "modules": [
         "knowledge"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Farxiv.org%2Fabs%2F2610.40641v1",
-      "title": "From extreme weather to agricultural consequences with agentic AI",
-      "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agen",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.40641v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-29T17:58:53Z",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Fopenai.com%2Findex%2Fupdated-model-spec",
-      "title": "An updated Model Spec for more capable and beneficial AI",
-      "summary": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/updated-model-spec",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 17:00:00 GMT",
-      "modules": [
-        "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fibm-granite%2Fgranite-switch-4-1-1",
-      "title": "Granite Switch 4.1.1 — Update models like you update software",
-      "summary": "Granite Switch 4.1.1 — Update models like you update software",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 13:37:07 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fhow-we-detect-frontier-model-misalignment",
-      "title": "How we detect frontier model misalignment",
-      "summary": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
-      "lessonId": "reasoning",
-      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 09:00:00 GMT",
-      "modules": [
-        "agent"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fropes-gray-ai-diligence",
-      "title": "How Ropes & Gray is developing AI for transactional diligence",
-      "summary": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/ropes-gray-ai-diligence",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fannouncing-project-protostar",
-      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "summary": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/announcing-project-protostar",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fmistral-large4",
-      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "summary": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/mistral-large4",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Fhuggingface.co%2Fblog%2Fanydecisionmodel",
-      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "summary": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://huggingface.co/blog/anydecisionmodel",
-      "sourceName": "Hugging Face Blog",
-      "sourceType": "official",
-      "publishedAt": "Thu, 29 Oct 2026 00:00:00 GMT",
-      "modules": [
-        "input"
       ],
       "isNew": false
     }
