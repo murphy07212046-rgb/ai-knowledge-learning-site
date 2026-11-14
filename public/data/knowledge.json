@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-11-13T07:52:41.069Z",
+    "updatedAt": "2026-11-14T07:34:28.628Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,111 @@
   ],
   "updates": [
     {
+      "id": "foundations-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.26",
+      "title": "v0.14.26",
+      "summary": "<h1>Release Notes</h1> <h2>[2026-11-13]</h2> <h3>llama-index-agent-agentmesh [0.3.0]</h3> <ul> <li>Python security relock: all integration uv.lock files (lock files only, no Python floor changes) (<a href=\"https://github.com/run-llama/llama_index/pull/24039\" data-hovercard-type=\"",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26",
+      "sourceName": "LlamaIndex Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-11-13T22:38:15Z",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fsimready-assets-robot-pick-and-place",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "summary": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 13 Nov 2026 18:00:39 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Fxybench",
+      "title": "XYBench: Helping with the problem behind the question",
+      "summary": "XYBench: Helping with the problem behind the question",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/allenai/xybench",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 13 Nov 2026 17:02:35 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.8.0",
+      "title": "langchain-openai==1.8.0",
+      "summary": "<p><strong><code>langchain-openai</code> 1.8.0 drops support for Python 3.10</strong>, which has reached end-of-life. The minimum supported version is now Python 3.11, and the minimum <code>langchain-core</code> version is now 1.8.0. Users on Python 3.10 will continue to resolve",
+      "lessonId": "evaluation",
+      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.8.0",
+      "sourceName": "LangChain Releases",
+      "sourceType": "official",
+      "publishedAt": "2026-11-13T16:48:30Z",
+      "modules": [
+        "operations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/index/introducing-chatgpt-wallet",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 13 Nov 2026 15:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fggml-org%2Fllama-cpp-v1",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "summary": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Fri, 13 Nov 2026 14:05:22 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fopenai.com%2Fbusiness%2Fcustomer-stories%2Fshield",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://openai.com/business/customer-stories/shield",
+      "sourceName": "OpenAI News",
+      "sourceType": "official",
+      "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "modules": [
+        "agent"
+      ],
+      "isNew": true
+    },
+    {
       "id": "agent-https%3A%2F%2Fopenai.com%2Fbusiness%2Fcustomer-stories%2Famplitude",
       "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
       "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
@@ -1736,7 +1841,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.09891v1",
@@ -1751,7 +1856,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2611.09872v1",
@@ -1766,7 +1871,7 @@
       "modules": [
         "input"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.09868v1",
@@ -1781,7 +1886,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2611.09866v1",
@@ -1796,7 +1901,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fallenai%2Ftoyblocks",
@@ -1811,7 +1916,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fpartnering-with-hacktron",
@@ -1826,7 +1931,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "agent-https%3A%2F%2Fopenai.com%2Findex%2Fmeasuring-how-ai-agents-handle-wet-lab-science",
@@ -2665,111 +2770,6 @@
       "publishedAt": "2026-11-02T15:31:49Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fscaling-git-at-openai",
-      "title": "Scaling Git at OpenAI",
-      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/scaling-git-at-openai",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Mon, 02 Nov 2026 15:30:00 GMT",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-anthropic%253D%253D1.7.8",
-      "title": "langchain-anthropic==1.7.8",
-      "summary": "<p>Changes since langchain-anthropic==1.7.7</p> <p>release(anthropic): 1.7.8 (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load title\" data-id=\"6165380161\" data-permission-text=\"Title is private\" data-url=\"https://github.com/langchain-ai/langchain/issues/41638\"",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.7.8",
-      "sourceName": "LangChain Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-11-02T15:23:33Z",
-      "modules": [
-        "input"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fopenai.com%2Findex%2Fgrid-protectors-program",
-      "title": "Introducing the Grid Protectors Program",
-      "summary": "OpenAI’s Grid Protectors Program will work with utilities to help future compute campuses support grid reliability and protect consumer electricity costs.",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/grid-protectors-program",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Mon, 02 Nov 2026 15:00:00 GMT",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Fopenai.com%2Findex%2Flifeval",
-      "title": "LifeVal",
-      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://openai.com/index/lifeval",
-      "sourceName": "OpenAI News",
-      "sourceType": "official",
-      "publishedAt": "Mon, 02 Nov 2026 09:00:00 GMT",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42149v1",
-      "title": "Latent Reasoning in Continuous Space for Unified Multimodal Models",
-      "summary": "Unified Multimodal Models (UMMs) achieve remarkable success on diverse multimodal understanding and generation tasks, yet they still struggle to effectively leverage language-based chain-of-thought reasoning for image generation. As a result, existing reasoning-augmented UMMs oft",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.42149v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-30T17:59:43Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42148v1",
-      "title": "Flide: Accelerating Decision Inference with Exact State Forking",
-      "summary": "Decision models such as Jev have emerged as a highly promising paradigm for LLM agent systems, providing lightweight and reliable categorical reasoning for rapid System One execution. However, existing generation-oriented inference engines fail to support these workloads effectiv",
-      "lessonId": "evaluation",
-      "learningConnection": "这条更新归入「评估与运营」的「效果评估」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.42148v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-30T17:59:38Z",
-      "modules": [
-        "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "input-https%3A%2F%2Farxiv.org%2Fabs%2F2610.42147v1",
-      "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
-      "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse",
-      "lessonId": "tokens",
-      "learningConnection": "这条更新归入「输入处理」的「Token 化」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2610.42147v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-10-30T17:59:34Z",
-      "modules": [
-        "input"
       ],
       "isNew": false
     }
