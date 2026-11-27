@@ -2,7 +2,7 @@
   "site": {
     "name": "AI 知识地图",
     "tagline": "沿着一次 AI 回答，理解模型、知识、智能体与运营的完整链路",
-    "updatedAt": "2026-11-26T09:27:32.765Z",
+    "updatedAt": "2026-11-27T09:38:15.329Z",
     "newWindowDays": 7
   },
   "businessCase": {
@@ -974,6 +974,21 @@
   ],
   "updates": [
     {
+      "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fggml-org%2Fllamacpp-amd-bench",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "summary": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "lessonId": "llm",
+      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 26 Nov 2026 11:37:17 GMT",
+      "modules": [
+        "foundations"
+      ],
+      "isNew": true
+    },
+    {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fnvidia%2Fbuilding-on-nemotron-35-parse-open-data-fine-tunin",
       "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
       "summary": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
@@ -985,6 +1000,21 @@
       "publishedAt": "Thu, 26 Nov 2026 05:05:36 GMT",
       "modules": [
         "foundations"
+      ],
+      "isNew": true
+    },
+    {
+      "id": "agent-https%3A%2F%2Fhuggingface.co%2Fblog%2Ftraining-swarms",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "lessonId": "reasoning",
+      "learningConnection": "这条更新归入「推理与智能体」的「Reasoning」知识点，可结合该知识继续理解。",
+      "sourceUrl": "https://huggingface.co/blog/training-swarms",
+      "sourceName": "Hugging Face Blog",
+      "sourceType": "official",
+      "publishedAt": "Thu, 26 Nov 2026 00:00:00 GMT",
+      "modules": [
+        "agent"
       ],
       "isNew": true
     },
@@ -1676,7 +1706,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fopenai.com%2Findex%2Fintroducing-medchembench",
@@ -1691,7 +1721,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fhuggingface.co%2Fblog%2Finkling2mini",
@@ -1706,7 +1736,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fhuggingface.co%2Fblog%2Fharness-adapters-at-scale",
@@ -1721,7 +1751,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.8.5",
@@ -1736,7 +1766,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-core%253D%253D1.8.4",
@@ -1751,7 +1781,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openai%253D%253D1.8.4",
@@ -1766,7 +1796,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Farxiv.org%2Fabs%2F2611.26624v1",
@@ -1781,7 +1811,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.26617v1",
@@ -1796,7 +1826,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.26613v1",
@@ -1811,7 +1841,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.26601v1",
@@ -1826,7 +1856,7 @@
       "modules": [
         "foundations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.26598v1",
@@ -1841,7 +1871,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fdevelopers-tools%2Fgemini-api-tool-retrieval%2F",
@@ -1856,7 +1886,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "knowledge-https%3A%2F%2Fblog.google%2Finnovation-and-ai%2Ftechnology%2Fai%2Fdialogues-walter-isaacson%2F",
@@ -1871,7 +1901,7 @@
       "modules": [
         "knowledge"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "operations-https%3A%2F%2Fgithub.com%2Flangchain-ai%2Flangchain%2Freleases%2Ftag%2Flangchain-openrouter%253D%253D0.3.0",
@@ -1886,7 +1916,7 @@
       "modules": [
         "operations"
       ],
-      "isNew": true
+      "isNew": false
     },
     {
       "id": "foundations-https%3A%2F%2Fopenai.com%2Findex%2Fhow-openai-performance-factory-keeps-chatgpt-fast",
@@ -2740,36 +2770,6 @@
       "publishedAt": "2026-11-15T14:57:13Z",
       "modules": [
         "operations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Fgithub.com%2Frun-llama%2Fllama_index%2Freleases%2Ftag%2Fv0.14.26",
-      "title": "v0.14.26",
-      "summary": "<h1>Release Notes</h1> <h2>[2026-11-13]</h2> <h3>llama-index-agent-agentmesh [0.3.0]</h3> <ul> <li>Python security relock: all integration uv.lock files (lock files only, no Python floor changes) (<a href=\"https://github.com/run-llama/llama_index/pull/24039\" data-hovercard-type=\"",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://github.com/run-llama/llama_index/releases/tag/v0.14.26",
-      "sourceName": "LlamaIndex Releases",
-      "sourceType": "official",
-      "publishedAt": "2026-11-13T22:38:15Z",
-      "modules": [
-        "foundations"
-      ],
-      "isNew": false
-    },
-    {
-      "id": "foundations-https%3A%2F%2Farxiv.org%2Fabs%2F2611.18553v1",
-      "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
-      "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability ha",
-      "lessonId": "llm",
-      "learningConnection": "这条更新归入「AI 与模型基础」的「大语言模型（LLM）」知识点，可结合该知识继续理解。",
-      "sourceUrl": "https://arxiv.org/abs/2611.18553v1",
-      "sourceName": "arXiv AI",
-      "sourceType": "research",
-      "publishedAt": "2026-11-13T18:58:08Z",
-      "modules": [
-        "foundations"
       ],
       "isNew": false
     }
